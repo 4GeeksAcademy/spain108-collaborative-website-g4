@@ -9,6 +9,11 @@ body {
     display:flex;
     flex-direction: row;
 }
+.porfolio{
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+}
 
 .texto{
     padding-top: 40px;
