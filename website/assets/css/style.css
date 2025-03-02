@@ -1,137 +1,149 @@
-
 body {
 
     background: #BDBDBD;
 }
 
-.firstHeading{
+.firstHeading {
     padding: 50px;
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
-.porfolio{
+
+.porfolio {
     padding: 50px;
-    display:flex;
-    flex-direction: column;
-}
-.contact{
-    padding: 50px;
-    display:flex;
-    flex-direction: column;
-}
-.formContact{
     display: flex;
     flex-direction: column;
-    background-color:rgb(220, 220, 239);
-    width: 80%;
-    margin:auto;
-    align-items: end;
-    height: 250px;
-    border: 1px solidrgb(220, 220, 239);
-    
-}
-.emailForm{
-    justify-content: right;
-    display: flex;
-    width: 90%;
-    height: 50px;
-    
-}
-.emailAbel{
-    text-align: right;
-    width:20%;
-    height: 50px;
-    margin-top:15px
-}
-.email{
-    width: 80%;
-    height: 150px;
-    padding: 10px;
-    
-}
-.textAreaForm{
-    justify-content: right;
-    display: flex;
-    width: 90%;
-    height: 100px;
-}
-.textArea{
-    text-align: right;
-    justify-items: center;
-    width: 80%;
-    height: 150px;
-    padding: 10px;
-}
-.btn{
-    margin-top: 10px; 
 }
 
-.texto{
+.contact {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formContact {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(220, 220, 239);
+    width: 80%;
+    margin: auto;
+    align-items: end;
+    height: 250px;
+
+
+}
+
+.emailForm {
+    justify-content: right;
+    display: flex;
+    width: 90%;
+    height: 50px;
+
+}
+
+.emailAbel {
+    text-align: right;
+    width: 20%;
+    height: 50px;
+    margin-top: 15px
+}
+
+.email {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+
+}
+
+.textAreaForm {
+    justify-content: right;
+    display: flex;
+    width: 90%;
+    height: 50px;
+}
+
+.textArea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.texto {
     padding-top: 40px;
-    border-top: solid 1px  gainsboro;
+    border-top: solid 1px gainsboro;
     display: flex;
     flex-direction: column;
     width: 85%;
-   
+
 }
-.textoPorfolio{
+
+.textoPorfolio {
     padding-top: 40px;
-    border-top: solid 1px  gainsboro;
+    border-top: solid 1px gainsboro;
     display: flex;
     flex-direction: column;
-    
+
 }
-.textoContact{
+
+.textoContact {
     padding-top: 40px;
-    border-top: solid 1px  gainsboro;
+    border-top: solid 1px gainsboro;
     display: flex;
     flex-direction: column;
 }
 
-.imagen{
+.imagen {
     padding-top: 40px;
-    border-top: solid 1px  gainsboro;
-    margin-left:px;
+    border-top: solid 1px gainsboro;
+    margin-left: px;
     width: 25%;
     align-items: end;
     justify-content: right;
     justify-items: center;
 }
-#letter{
+
+#letter {
     color: grey;
 }
-.firstText{
+
+.firstText {
     font-family: "Barlow", serif;
     font-weight: 400;
     font-size: 20px;
     color: #6f6d6d;
 }
-.firstTitle{
+
+.firstTitle {
     width: 100%;
     text-align: left;
     justify-content: center;
 }
 
-#firstTitle{
+#firstTitle {
     font-size: 50px;
 }
 
-.breakBad{
+.breakBad {
     width: 250px;
     height: 300px;
     border-radius: 100%;
     align-self: self-end;
 
 }
-.aColor{
+
+.aColor {
     color: #BDBDBD;
 }
 
 .general {
     display: flex;
-    flex-direction: row; 
-    align-items: center; 
-    flex-wrap: nowrap; 
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .text {
