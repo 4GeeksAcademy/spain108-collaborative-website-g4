@@ -14,6 +14,57 @@ body {
     display:flex;
     flex-direction: column;
 }
+.contact{
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+}
+.formContact{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(220, 220, 239);
+    width: 80%;
+    margin:auto;
+    align-items: end;
+    height: 250px;
+    border: 1px solidrgb(220, 220, 239);
+    
+}
+.emailForm{
+    justify-content: right;
+    display: flex;
+    width: 90%;
+    height: 50px;
+    
+}
+.emailAbel{
+    text-align: right;
+    width:20%;
+    height: 50px;
+    margin-top:15px
+}
+.email{
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    
+}
+.textAreaForm{
+    justify-content: right;
+    display: flex;
+    width: 90%;
+    height: 100px;
+}
+.textArea{
+    text-align: right;
+    justify-items: center;
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+}
+.btn{
+    margin-top: 10px; 
+}
 
 .texto{
     padding-top: 40px;
@@ -22,6 +73,19 @@ body {
     flex-direction: column;
     width: 85%;
    
+}
+.textoPorfolio{
+    padding-top: 40px;
+    border-top: solid 1px  gainsboro;
+    display: flex;
+    flex-direction: column;
+    
+}
+.textoContact{
+    padding-top: 40px;
+    border-top: solid 1px  gainsboro;
+    display: flex;
+    flex-direction: column;
 }
 
 .imagen{
