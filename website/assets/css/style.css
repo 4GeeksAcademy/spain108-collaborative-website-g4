@@ -1,3 +1,6 @@
 body{
-    background: #BDBDBD;
+    background: white;
+}
+.firstheading_span{
+    display: inline-block;
 }
