@@ -1,3 +1,6 @@
-body{
-    background: #BDBDBD;
+.img_portfolio{
+
+    height: 220px;
+    object-fit: cover;
 }
+
