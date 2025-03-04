@@ -20,3 +20,10 @@ p, .labeltext{
 .card-body, .mycontainer{
     background-color: #2565ade2;
 }
+
+
+
+
+.navbar-nav .nav-link {
+    text-shadow: 0 0 15px #ffffff;
+  }
