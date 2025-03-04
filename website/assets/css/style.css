@@ -12,11 +12,11 @@ h5{
     color: #c7ab0dde;
     text-shadow: 0 0 5px #FFD700, 0 0 10px #fbfbfb, 0 0 15px #FFD700, 0 0 20px #faf4dc, 0 0 30px #ffcc00;
 }
-p{
+p, .labeltext{
     color: #ffffff;
     text-shadow: 0 0 15px #ffffff, 0 0 5px #070000, 0 0 10px #ffffff, 0 0 10px #050505, 0 0 8px #ffffff;
     word-wrap: break-word;
 }
-.card-body{
+.card-body, .mycontainer{
     background-color: #2565ade2;
 }
