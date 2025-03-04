@@ -1,19 +1,20 @@
 <div class="container-fluid p-0">
-    <div class="position-relative">
+    <div class="position-relative" style="min-height: 50vh;">
+        <!-- Imagen hero con altura máxima para evitar solapamientos -->
         <img src="https://media.istockphoto.com/id/1306869356/es/vector/horizonte-abstracto-de-la-ciudad-moderna-patr%C3%B3n-vectorial-sin-costuras.jpg?s=612x612&w=0&k=20&c=xeuUUeaMPeDsnT1rPz2RvIbuFrkww023FF66RwBoKGE=" 
-             class="img-fluid w-100" alt="Imagen Hero">
+             class="img-fluid w-100" alt="Imagen Hero" style="max-height: 50vh; object-fit: cover;">
         
-        <!-- Contenedor para mantener los recuadros centrados y con un pequeño espacio -->
-        <div class="position-absolute top-0 start-50 translate-middle-x w-100 mt-5">
+        <!-- Contenedor centrado y con márgenes adaptativos -->
+        <div class="position-absolute top-0 start-50 translate-middle-x w-100 mt-3 mt-md-4 mt-lg-5">
             
-            <!-- Primer recuadro con texto grande y oscuro, responsivo -->
+            <!-- Primer recuadro blanco responsivo -->
             <div class="bg-white shadow p-1 text-center w-100 w-md-75 w-lg-50 mx-auto">
-                <h1 class="display-2 text-dark fw-bold mb-0">One Page Wonder</h1>
+                <h1 class="display-4 display-md-2 text-dark fw-bold mb-0">One Page Wonder</h1>
             </div>
             
-            <!-- Segundo recuadro con texto más pequeño y responsivo -->
-            <div class="bg-white shadow p-1 mt-3 text-center w-100 w-md-75 w-lg-50 mx-auto">
-                <h2 class="h-5 text-dark fw-bold mb-0">Will Knock Your Socks off</h2>
+            <!-- Segundo recuadro blanco responsivo con menos margen en pantallas pequeñas -->
+            <div class="bg-white shadow p-1 mt-2 mt-md-3 text-center w-100 w-md-75 w-lg-50 mx-auto">
+                <h2 class="h5 text-dark fw-semibold mb-0">Will Knock Your Socks Off</h2>
             </div>
             
         </div>
