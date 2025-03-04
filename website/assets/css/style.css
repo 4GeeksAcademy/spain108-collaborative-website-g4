@@ -21,6 +21,13 @@ body{
 
 .container-fluid{
     padding: 0;
+    
+.img_portfolio{
+
+    height: 220px;
+    object-fit: cover;
 }
+
+
 */
 
