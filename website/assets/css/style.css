@@ -14,9 +14,10 @@ body {
 .first-heading-text {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra el texto horizontalmente */
     justify-content: flex-start; /* Lo alinea hacia arriba */
-    text-align: center; /* Asegura que el texto dentro esté centrado */
+    text-align:justify;
+    margin-top: 20px; /* Mueve el contenido hacia abajo */
+    margin-bottom: 20px; /* Agrega espacio antes de la línea inferior */
 }
 
 .first-heading-text h1 {
@@ -27,7 +28,7 @@ body {
 .first-heading-text p {
     font-size: 20px;
     color: #555;
-    margin-bottom: 20px;
+    margin-right: 50px;
 }
 .first-heading-image img {
     width: 300px;
@@ -36,4 +37,5 @@ body {
     object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
     display: block;
     padding-left: 20px;
+    margin-right: 40px;
 }
