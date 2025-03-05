@@ -3,7 +3,7 @@ body{
 }
 
 
-#ciudad {
+.ciudad {
     background-image: url('../img/bg.jpg');
     background-size: 100% auto; /* La imagen se ajusta al 100% del ancho sin distorsionar */
     background-position: center bottom;
@@ -13,11 +13,11 @@ body{
 }
 
 
-#ciudad h1 {
+.ciudad h1 {
     font-size: 120px;
 }
 
-#ciudad h2 {
+.ciudad h2 {
     font-size: 60px
 }
 .container_contact {
