@@ -3,21 +3,22 @@ body{
 }
 
 
-#ciudad {
+.ciudad {
     background-image: url('../img/bg.jpg');
-    background-size: 100% auto; /* La imagen se ajusta al 100% del ancho sin distorsionar */
+    background-size: 100% auto;
     background-position: center bottom;
     background-repeat: no-repeat;
-    min-height: 600px; /* Ajusta según lo que necesites */
+    min-height: 600px;
     width: 100%;
+    
 }
 
 
-#ciudad h1 {
+.ciudad h1 {
     font-size: 120px;
 }
 
-#ciudad h2 {
+.ciudad h2 {
     font-size: 60px
 }
 .container_contact {
