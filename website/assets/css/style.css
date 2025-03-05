@@ -5,7 +5,7 @@ body{
 .card-img-top{
     height: 180px;
 }
-.container-fluid{
+.mycontainer-fluid{
     max-width: 1200px;
 }
 h5{
