@@ -3,22 +3,21 @@ body{
 }
 
 
-.ciudad {
+#ciudad {
     background-image: url('../img/bg.jpg');
-    background-size: 100% auto;
+    background-size: 100% auto; /* La imagen se ajusta al 100% del ancho sin distorsionar */
     background-position: center bottom;
     background-repeat: no-repeat;
-    min-height: 600px;
+    min-height: 600px; /* Ajusta según lo que necesites */
     width: 100%;
-    
 }
 
 
-.ciudad h1 {
+#ciudad h1 {
     font-size: 120px;
 }
 
-.ciudad h2 {
+#ciudad h2 {
     font-size: 60px
 }
 .container_contact {
@@ -28,10 +27,12 @@ body{
 }
 
 .container_form {
-    background: lightblue;
+    width: 50%;
+    margin: 0 auto;
     padding: 20px;
+    background-color: #f8f9fa;
     border-radius: 10px;
-    max-width: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 form {
