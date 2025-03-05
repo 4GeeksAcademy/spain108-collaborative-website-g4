@@ -23,7 +23,19 @@ body{
 .container_contact {
     background-color: white;
     padding: 30px;
-    margin: 30px;
+    margin: 0; 
+}
+
+.container_contact h1 {
+    text-align: left; 
+    margin:30px;
+}
+
+.container_contact p {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right:30px;
 }
 
 .container_form {
@@ -38,12 +50,12 @@ body{
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Espaciado entre los elementos */
+    gap: 15px; 
 }
 
 form .input-group {
     display: flex;
-    gap: 10px; /* Espaciado entre label y input */
+    gap: 10px;
     align-items: center;
 }
 
