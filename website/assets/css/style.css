@@ -20,6 +20,10 @@ p, .labeltext{
 .card-body, .mycontainer{
     background-color: #2565ade2;
 }
+.mycontainer{
+  max-width: 50rem;
+  height: auto;
+}
 
 
 <!-- Barra de navegación de Víctor -->
