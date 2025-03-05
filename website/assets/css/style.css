@@ -1,4 +1,4 @@
-body{
+body {
     background: #BDBDBD;
 }
 
@@ -73,4 +73,43 @@ textarea {
 
 button {
     align-self: center; /* Centra el botón */
+}
+
+
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: whitesmoke;
+    margin: 0; 
+}
+
+.first-heading-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Lo alinea hacia arriba */
+    text-align:justify;
+    margin-top: 20px; /* Mueve el contenido hacia abajo */
+    margin-bottom: 20px; /* Agrega espacio antes de la línea inferior */
+}
+
+.first-heading-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
+}
+
+.first-heading-text p {
+    font-size: 20px;
+    color: #555;
+    margin-right: 50px;
+}
+.first-heading-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Hace que la imagen tenga un borde redondeado */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    display: block;
+    padding-left: 20px;
+    margin-right: 40px;
 }
