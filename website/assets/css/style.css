@@ -1,29 +1,39 @@
-body{
+body {
     background: #BDBDBD;
 }
+
 .heading-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px;
     background: whitesmoke;
-    margin: 30px 30px 30px 30px; /* Centrado horizontal con margen izquierdo */
+    margin: 0; 
 }
 
-.heading-text {
-    max-width: 50%;
+.first-heading-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el texto horizontalmente */
+    justify-content: flex-start; /* Lo alinea hacia arriba */
+    text-align: center; /* Asegura que el texto dentro esté centrado */
 }
 
-.heading-text h1 {
-    font-size: 48px;
-        }
+.first-heading-text h1 {
+    font-size: 40px;
+    margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
+}
 
-.heading-text p {
+.first-heading-text p {
     font-size: 20px;
     color: #555;
+    margin-bottom: 20px;
 }
-
-.heading-image img {
+.first-heading-image img {
     width: 300px;
     height: 300px;
+    border-radius: 50%; /* Hace que la imagen tenga un borde redondeado */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    display: block;
+    padding-left: 20px;
 }
