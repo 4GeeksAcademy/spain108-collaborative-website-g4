@@ -1,37 +1,6 @@
-/*
-
-Css para otra forma de crear el tagline 
-
-body{
-    margin: 0;
-    padding: 0;
-    background: white;
+.bg-image {
+    background-image: url('https://wallpapers.com/images/hd/4k-ultra-hd-landscape-wallpaper-sa8ffsciekildmug.jpg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
 }
-
-.card-title-tagline {
-    font-size: 7vw;
-    color: #333333;
-}
-
-
-.card-subtittle-tagline{
-    font-size: 4vw;
-    color: #333333;
-}
-
-
-.container-fluid{
-    padding: 0;
-    
-.img_portfolio{
-
-    height: 220px;
-    object-fit: cover;
-}
-.firstheading_span{
-    display: inline-block;
-}
-
-
-*/
-
