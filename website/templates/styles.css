@@ -1,5 +1,12 @@
 body {background-color: white;}
 
+.circle-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .hero-img {
     background: url('https://concepto.de/wp-content/uploads/2018/08/Londres-e1533855310803.jpg')
 }
