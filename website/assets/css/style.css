@@ -81,7 +81,7 @@ button {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background: whitesmoke;
+    background: white;
     margin: 0; 
 }
 
@@ -95,12 +95,12 @@ button {
 }
 
 .first-heading-text h1 {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px; /* Espaciado entre el título y el párrafo */
 }
 
 .first-heading-text p {
-    font-size: 20px;
+    font-size: 18px;
     color: #555;
     margin-right: 50px;
 }
