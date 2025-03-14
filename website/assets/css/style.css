@@ -4,14 +4,10 @@ body{
 
 /*First head  NELCY*/
 
-/* Fondo blanco para todo el contenedor 
-recomiendo que lo incluyan para que toda la pagina nos quede uniforme (Services, Portfolio y Contact)*/
 .contenedor-principal {
     background-color: white;
   }
-  
-  /* Línea separadora gris recomiendo que lo incluyan para que la línea
-  gris se nos vea todos igual (Services, Portfolio y Contact)*/
+
   .linea-separador {
     border-top: 1px solid lightgrey;
     width: 100%;
@@ -19,12 +15,29 @@ recomiendo que lo incluyan para que toda la pagina nos quede uniforme (Services,
     margin-bottom: 50px;
   }
 
-   /* tamaño del texto contenido recomiendo si lo usan asi se veran uniforme los tamaños (Services, Portfolio y Contact)*/
   .text-contenido {
     font-size: 1.2rem; 
     line-height: 1.2; 
     font-family: serif sans-serif; 
-  
   }
 
- 
+ /* Footer Nelcy*/
+ footer {
+    margin-top: 20px;
+    text-align: left;
+    background-color: #fff; 
+    padding: 10px 0; 
+    border-top: 1px solid #ddd; 
+}
+
+footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333; 
+    margin: 0;
+    }
