@@ -1,6 +1,10 @@
-body{
-    background: #BDBDBD;
-}
+
 .Project{
     color: rgb(82, 126, 210);
+}
+.cuerpo{
+    padding: 16px 0px 16px 0px;
+}
+.card-text{
+    font-size: small;
 }
