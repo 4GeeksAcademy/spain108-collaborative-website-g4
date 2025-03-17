@@ -1,21 +1,37 @@
 <style>
     .banner {
-        background-image: url("https://img.freepik.com/fotos-premium/panorama-urbano-horizonte-ciudad-al-atardecer_649448-708.jpg?w=900");
+        position: relative;
         background-size: cover;
         background-position: center;
         color: black;
-        padding: 82px 0;
-        position: relative;
+        padding: 0; /* Elimina el padding para evitar desajustes */
         text-align: center;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block; /* Asegura que no haya espacio extra alrededor de la imagen */
+    }
+
+    .banner-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        width: 100%; /* Asegura que el contenido ocupe todo el ancho */
+        box-sizing: border-box; /* Incluye padding en el ancho total */
     }
 
     .full-width {
         background-color: white;
         padding: 20px;
-        margin: 0;
-        width: 100%;
+        width: 100%; /* Asegura que ocupe el 100% del ancho */
         box-sizing: border-box;
-        margin-top: 40px;
+        margin: 0; /* Elimina márgenes adicionales */
+        margin-top: 30px;
     }
 
     * {
@@ -26,6 +42,9 @@
 </style>
 
 <div class="jumbotron text-center banner">
-    <h1 class="display-1 full-width"><strong>One Page Wonder</strong></h1>
-    <p class="lead display-6 full-width"><strong>Will Knock Your Socks Off</strong></p>
+    <img src="assets/img/bg.jpg" alt="">
+    <div class="banner-content">
+        <h1 class="display-1 full-width"><strong>One Page Wonder</strong></h1>
+        <p class="lead display-6 full-width"><strong>Will Knock Your Socks Off</strong></p>
+    </div>
 </div>
