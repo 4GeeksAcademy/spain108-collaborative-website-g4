@@ -3,12 +3,9 @@ body{
 }
 .linea-first-heading{
     height: 1px;
-    color:gray;
-    
+    color:gray;    
 }
-body {
-    background: #BDBDBD;
-}
+
 
 .tagimg {
     position: relative;
@@ -64,4 +61,15 @@ body {
     display: flex;
     justify-content: center;
     font-weight: bold;
-  }
+
+}
+
+.Project{
+    color: rgb(82, 126, 210);
+}
+.cuerpo{
+    padding: 16px 0px 16px 0px;
+}
+.card-text{
+    font-size: small;
+}
