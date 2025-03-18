@@ -1,7 +1,11 @@
-
-body {
+body{
     background: white;
 }
+.linea-first-heading{
+    height: 1px;
+    color:gray;    
+}
+
 
 .tagimg {
     position: relative;
