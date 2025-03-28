@@ -74,4 +74,8 @@ textarea {
 button {
     align-self: center; /* Centra el botón */
 }
-
+.foto1 {
+    max-width: 350px;
+  }
+ 
+  
