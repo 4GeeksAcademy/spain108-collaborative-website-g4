@@ -73,3 +73,8 @@ textarea {
 button {
   align-self: center;
 }
+
+.foto1 {
+    max-width: 350px;
+  }
+
