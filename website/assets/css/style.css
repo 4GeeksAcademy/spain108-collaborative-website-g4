@@ -18,22 +18,25 @@ body{
 .text-jus{
     text-align: justify;
 =======
-    background-color: grey;
+body{
+    background-color: white;
 }
-.heading-img{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url('/website/assets/img/bg.jpg'); 
-    height: 70rem;
-     background-size: contain; 
-     background-repeat: no-repeat; 
-     width: 100%; 
-     object-fit: cover;
+#heading-img{
+  background-image: url('/website/assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    min-height: 600px;
 }
 
-.heading{
-    background-color: white;
->>>>>>> first-heading
+#h1{
+  font-size: 5rem;
+}
+#h2{
+  font-size: 3rem;
+}
+.contact{
+  width: 50%;
+    background-color: lightgrey;
+    padding: 15px;
 }
