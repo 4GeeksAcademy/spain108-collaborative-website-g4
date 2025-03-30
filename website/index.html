@@ -58,28 +58,42 @@
       </div>
     </div>
   </header>
-  <div class="p-5">
-    <h1>Contact</h1>
-    <p class="fs-4">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis tellus luctus, ultrices
-      purus non, consequat mi. Nulla laoreet ligula metus, sed elementum massa malesuada a.
-    </p>
-  </div>
-  <form action="">
-    <div class="container">
-      <div class="d-flex justify-content-center">
-        <div class="row w-75">
-          <div class="col-2">
-              <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          </div>
-          <div class="col-10">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <div class="bg-light py-5">
+    <div class="px-5">
+      <h1>Contact</h1>
+      <p class="text-muted">
+        Esto es un formulario de contacto creado con Bootstrap para el proyecto "Construyendo un website HTML
+        colaborativo. El formulario se crea con clases de bootstrap para darle el diseño y el comportamiento
+        necesario para que sea responsive. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae diam
+        porta,
+        porttitor nisi vitae, semper nibh. Nunc quis lectus ac leo suscipit"
+      </p>
+    </div>
+
+    <form action="">
+      <div class="container bg-light.bg-gradient">
+        <div class="d-flex justify-content-center">
+          <div class="row w-75 p-5 border align-items-baseline">
+            <div class="col-2 mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Your E-mail</label>
+            </div>
+            <div class="col-10">
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+            </div>
+            <div class="col-2">
+              <label for="text-area" class="form-label">Your message</label>
+            </div>
+            <div class="col-10">
+              <textarea class="form-control" id="text-area" placeholder="Enter you message here.." rows="5"></textarea>
+            </div>
+            <div class="d-flex justify-content-end mt-3">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </form>
-
+    </form>
+  </div>
   <!-- /.container -->
   <script type="text/javascript"
     src="https://cdn.rawgit.com/alesanchezr/html-template-engine/master/dist/html-template-engine.js?autoload"></script>
