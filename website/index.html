@@ -8,38 +8,211 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link href="assets/css/style.css?v0.1" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="bg-light">
+        <!-- Navbar  Ahora ocupa todo el ancho -->
 
-    <!-- Navigation -->
-    <div class="container-fluid">
-        <span require-file="./templates/navbar.html"></span>
-        <!-- Full Width Image Header -->
-        <span require-file="./templates/tagline.html"></span>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg w-100">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#">Porfolio</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header class="position-relative"
+            style="height: 100vh; background: url('./assets/img/bg.jpg') center bottom/cover;">
+            <div class="container-fluid h-100 position-absolute px-0">
+                <div class="row h-100 mx-0">
+                    <div class="col-12 d-flex flex-column align-items-center justify-content-center">
+                        <div class="w-100 bg-white text-center py-1 mb-1">
+                            <h1 class="display-1 fw-bold text-dark mb-0 px-4">
+                                One Page Wonder
+                            </h1>
+                        </div>
+                        <div class="display-5 w-100 bg-white text-center py-1 mt-1">
+                            <p class="text-dark fw-bold mb-0 px-4">
+                                Will Knock Your Socks Off
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Primer div  -->
+        <div class="px-3 py-5 mt-5 mb-5">
+            <div class="container mt-2">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0 ">
+                        <h2 class="fw-bold mb-3">Primer Título</h2>
+                        <p class="text-muted">Esta sección destaca las principales características de nuestro servicio.
+                            La
+                            imagen circular complementa el contenido y crea equilibrio visual. Perfecto para mostrar
+                            miembros del equipo o características del producto.</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="d-flex justify-content-center">
+                            <img src="./assets/img/1.jpg" alt="Imagen descriptiva" class="rounded-circle img-fluid"
+                                style="max-width: 250px; max-height: 250px; width: 100%; height: auto; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segundo div -->
+        <div class="px-3 py-5">
+            <div class="container mb-2">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-md-2 mb-4 mb-md-0">
+                        <h2 class="fw-bold mb-3">Segundo Título</h2>
+                        <p class="text-muted">Esta sección continúa con información adicional. La imagen circular a la
+                            izquierda crea un patrón visual alternado que mejora el flujo del contenido y la
+                            participación
+                            del usuario.</p>
+                    </div>
+                    <div class="col-md-6 order-md-1 text-center">
+                        <div class="d-flex justify-content-center">
+                            <img src="./assets/img/2.jpg" alt="Imagen descriptiva" class="rounded-circle img-fluid"
+                                style="max-width: 250px; max-height: 250px; width: 100%; height: auto; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sección Portfolio  -->
+        <section class="py-5">
+            <div class="container px-4">
+
+                <div class="row mb-4">
+                    <div class="col-12 text-start">
+                        <h2 class="fw-bold">Portfolio</h2>
+                        <p class="text-muted mb-4">Explora nuestros proyectos destacados. Cada trabajo representa
+                            soluciones
+                            innovadoras y creativas para nuestros clientes.</p>
+                    </div>
+                </div>
+
+                <!-- Proyectos en grid -->
+                <div class="row g-4">
+                    <!-- Proyecto 1 -->
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="h-100 p-3 bg-white border rounded">
+                            <img src="./assets/img/big-project-image.png" class="img-fluid w-100"
+                                alt="Proyecto E-commerce">
+                            <div class="p-3">
+                                <h5 class="fw-bold text-primary">Tienda Virtual</h5>
+                                <p class="mb-0">Plataforma de e-commerce con integración de pagos y gestión de
+                                    inventario.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="h-100 p-3 bg-white border rounded">
+                            <img src="./assets/img/big-project-image.png" class="img-fluid w-100" alt="App Móvil">
+                            <div class="p-3">
+                                <h5 class="fw-bold text-primary">App de Productividad</h5>
+                                <p class="mb-0">Aplicación móvil para gestión de tareas con sincronización en la nube.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="h-100 p-3 bg-white border rounded">
+                            <img src="./assets/img/big-project-image.png" class="img-fluid w-100"
+                                alt="Dashboard Analytics">
+                            <div class="p-3">
+                                <h5 class="fw-bold text-primary">Sistema de Analytics</h5>
+                                <p class="mb-0">Dashboard interactivo con visualización de datos en tiempo real.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FORMULARIO CONTACTO - Versión corregida -->
+        <div class="bg-light py-5">
+            <div class="container px-3 px-md-5"> <!-- Padding responsivo -->
+                <h1 class="mb-4">Contact</h1>
+                <p class="text-muted mb-4">
+                    Esto es un formulario de contacto creado con Bootstrap para el proyecto "Construyendo un
+                    website HTML
+                    colaborativo. El formulario se crea con clases de bootstrap para darle el diseño y el
+                    comportamiento
+                    necesario para que sea responsive.
+                </p>
+
+                <form>
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-lg-8 border rounded bg-white p-4"> <!-- Contenedor responsivo -->
+                            <div class="row align-items-center mb-3">
+                                <div class="col-12 col-md-3 mb-2 mb-md-0">
+                                    <label for="email" class="form-label">Your E-mail</label>
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                </div>
+                            </div>
+
+                            <div class="row align-items-baseline mb-4">
+                                <div class="col-12 col-md-3 mb-2 mb-md-0">
+                                    <label for="message" class="form-label">Your message</label>
+                                </div>
+                                <div class="col-12 col-md-9">
+                                    <textarea class="form-control" id="message" rows="5"
+                                        placeholder="Enter your message here.."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="text-end">
+                                <button type="submit" class="btn btn-primary px-4">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="mt-4">
+                    <p class="text-muted">&copy; Your Website 2025</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- Page Content -->
-    <div class="container-fluid">
-        <!-- First Featurette -->
-        <span require-file="./templates/first_heading.html"></span>
-        <span require-file="./templates/services.html"></span>
-        <span require-file="./templates/portfolio.html"></span>
-        <span require-file="./templates/contact.html"></span>
-        <span require-file="./templates/footer.html"></span>
-    </div>
-    <!-- /.container -->
+
+    <!-- Scripts -->
     <script type="text/javascript"
         src="https://cdn.rawgit.com/alesanchezr/html-template-engine/master/dist/html-template-engine.js?autoload"></script>
     <script type="text/javascript" src="assets/js/fix.js"></script>
 
-
     <!-- Optional JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
